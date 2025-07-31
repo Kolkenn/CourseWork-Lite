@@ -41,11 +41,7 @@ def get_password_hash(password: str) -> str:
 
 # 1. Define the 5 sample users for the demonstration
 users_data = [
-    {"username": "Demo User 1", "email": "leon@fiu.edu", "password": "password123"},
-    {"username": "Demo User 2", "email": "ehab@fiu.edu", "password": "password123"},
-    {"username": "Demo User 3", "email": "javi@fiu.edu", "password": "password123"},
-    {"username": "Demo User 4", "email": "haze@fiu.edu", "password": "password123"},
-    {"username": "Demo User 5", "email": "anel@fiu.edu", "password": "password123"},
+    {"username": "Demo User 1", "email": "leon@fiu.edu", "password": "password123"}
 ]
 
 # 2. Define the courses for this user
