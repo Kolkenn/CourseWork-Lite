@@ -19,22 +19,22 @@ const TaskItem = React.forwardRef((props,ref) => {
 
   return (
     <div className="task-item" ref={ref}>
-            <div className="task-main-info">
-                <input 
-                    type="checkbox" 
-                    className="task-checkbox" 
-                    checked={isCompleted} 
-                    onChange={handleCheckboxChange} 
-                />
-                <span className={`task-title ${isCompleted ? 'completed-text' : ''}`}>{task.title}</span>
+      <div className="task-main-info">
+        <input 
+          type="checkbox" 
+          className="task-checkbox" 
+          checked={isCompleted} 
+          onChange={handleCheckboxChange} 
+        />
+        <span className={`task-title ${isCompleted ? 'completed-text' : ''}`}>{task.title}</span>
       </div>
       <span className="task-due-date">{formattedDate}</span>
       <span className={`task-priority priority-${task.priority.toLowerCase()}`}>{task.priority}</span>
       <span className="task-course-name">{courseName}</span>
-            <div className="task-actions">
-                <button onClick={() => onEditTask(task)} className="action-button edit-button" title="Edit Task">✏️</button>
-                <button onClick={() => onDeleteTask(task.id)} className="action-button delete-button" title="Delete Task">🗑️</button>
-            </div>
+      <div className="task-actions">
+          <button onClick={() => onEditTask(task)} className="action-button edit-button" title="Edit Task">✏️</button>
+          <button onClick={() => onDeleteTask(task.id)} className="action-button delete-button" title="Delete Task">🗑️</button>
+      </div>
     </div>
   );
 });
@@ -57,9 +57,7 @@ const TaskList = ({ tasks, courses, onAddTask, onEditTask, onDeleteTask, onTaskS
     <main className="task-list-container">
       <div className="task-list-main-header">
         <h2>Tasks</h2>
-        <button onClick={onAddTask} className="add-button">
-          + Add Task
-        </button>
+        <button onClick={onAddTask} className="add-button">+ Add Task</button>
       </div>
       <div className="task-list-column-headers">
         <SortableHeader sortKey="title" sortConfig={sortConfig} onSort={onSort}>Task</SortableHeader>
