@@ -1,4 +1,4 @@
-# CourseWork Lite 📚
+# CourseWork Lite 
 
 CourseWork Lite is a web application designed to help students efficiently manage their academic tasks. It aims to solve the common challenge of managing multiple courses and deadlines by providing a centralized, user-friendly platform that streamlines the organization of academic workloads.
 
@@ -25,7 +25,7 @@ The application is built with a modern technology stack using a layered architec
 
 ## Getting Started
 
-To get a local copy up and running review the [Backend](https://github.com/SlyyJavii/CourseWork-Lite/tree/main/backend) & [Frontend](https://github.com/SlyyJavii/CourseWork-Lite/tree/main/frontend) directories for instructions.
+To get a local copy up and running review the [Backend](https://github.com/Kolkeann/CourseWork-Lite/tree/main/backend) & [Frontend](https://github.com/Kolkenn/CourseWork-Lite/tree/main/frontend) directories for instructions.
 
 Alternatively, you can visit [CourseWork Lite](https://courseworklite.netlify.app) to see the application live.
 
