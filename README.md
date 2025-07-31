@@ -1,4 +1,5 @@
-# CourseWork Lite 
+# CourseWork Lite <img width="32" height="32" alt="favicon-32x32" src="https://github.com/user-attachments/assets/814e28cf-d9b9-4a88-8571-ee3a2bd96cae" />
+
 
 CourseWork Lite is a web application designed to help students efficiently manage their academic tasks. It aims to solve the common challenge of managing multiple courses and deadlines by providing a centralized, user-friendly platform that streamlines the organization of academic workloads.
 
