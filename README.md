@@ -20,30 +20,16 @@ The application is built with a modern technology stack using a layered architec
   * **Database:** MongoDB Atlas
   * **Package Management:** uv (Python) / npm (Node.js)
   * **Deployment:**
-      * **Frontend:** Vercel / Netlify
-      * **Backend:** Render / Heroku
+      * **Frontend:** Netlify
+      * **Backend:** Render
 
 ## Getting Started
 
 To get a local copy up and running review the [Backend](https://github.com/SlyyJavii/CourseWork-Lite/tree/main/backend) & [Frontend](https://github.com/SlyyJavii/CourseWork-Lite/tree/main/frontend) directories for instructions.
 
 Alternatively, you can visit [CourseWork Lite](https://courseworklite.netlify.app) to see the application live.
-Open credentials are below.
-```
-Email: demo@fiu.edu
-Password: password123
-```
+
 Please note as this is hosted on free servers, there is an initial boot time to load the backend so you may experience long load times on first visit.
-
-## Project Team
-
-This project was developed by a dedicated team of five students for the CEN 4010 Software Engineering I course.
-
-  * **Leonel Ponce** 
-  * **Ehab Kayyali**
-  * **Anelys Izquierdo** 
-  * **Hazel Hernandez**
-  * **Javier Brasil**
 
 ## License
 
